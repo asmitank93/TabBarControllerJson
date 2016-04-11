@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "MyTableViewController.h"
 @interface ViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UITextField *txt_nm;
+@property (weak, nonatomic) IBOutlet UITextField *txt_year;
+- (IBAction)btn_search:(id)sender;
 
 @end
 

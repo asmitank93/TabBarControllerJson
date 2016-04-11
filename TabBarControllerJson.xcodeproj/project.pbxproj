@@ -14,6 +14,8 @@
 		E73C22771C3A929900B56638 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E73C22761C3A929900B56638 /* Images.xcassets */; };
 		E73C227A1C3A929900B56638 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73C22781C3A929900B56638 /* LaunchScreen.xib */; };
 		E73C22861C3A929900B56638 /* TabBarControllerJsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C22851C3A929900B56638 /* TabBarControllerJsonTests.m */; };
+		E73C22911C3A957E00B56638 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C22901C3A957E00B56638 /* AboutUsViewController.m */; };
+		E73C22941C3A968B00B56638 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73C22931C3A968B00B56638 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		E73C227F1C3A929900B56638 /* TabBarControllerJsonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarControllerJsonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73C22841C3A929900B56638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E73C22851C3A929900B56638 /* TabBarControllerJsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarControllerJsonTests.m; sourceTree = "<group>"; };
+		E73C228F1C3A957E00B56638 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		E73C22901C3A957E00B56638 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		E73C22921C3A968B00B56638 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		E73C22931C3A968B00B56638 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,10 @@
 		E73C225D1C3A929900B56638 = {
 			isa = PBXGroup;
 			children = (
+				E73C22921C3A968B00B56638 /* MyTableViewController.h */,
+				E73C22931C3A968B00B56638 /* MyTableViewController.m */,
+				E73C228F1C3A957E00B56638 /* AboutUsViewController.h */,
+				E73C22901C3A957E00B56638 /* AboutUsViewController.m */,
 				E73C22681C3A929900B56638 /* TabBarControllerJson */,
 				E73C22821C3A929900B56638 /* TabBarControllerJsonTests */,
 				E73C22671C3A929900B56638 /* Products */,
@@ -219,6 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E73C22911C3A957E00B56638 /* AboutUsViewController.m in Sources */,
+				E73C22941C3A968B00B56638 /* MyTableViewController.m in Sources */,
 				E73C22721C3A929900B56638 /* ViewController.m in Sources */,
 				E73C226F1C3A929900B56638 /* AppDelegate.m in Sources */,
 				E73C226C1C3A929900B56638 /* main.m in Sources */,
